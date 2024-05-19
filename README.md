@@ -20,7 +20,7 @@ void Handler()
 
 void Handler2()
 {
-  Debug.Log("handler2 called");
+    Debug.Log("handler2 called");
 }
 
 ```
@@ -41,7 +41,7 @@ void Awake()
 
 private void HandlePlayerDied()
 {
-  Debug.Log("player died handler called");
+    Debug.Log("player died handler called");
 }
 
 ```
