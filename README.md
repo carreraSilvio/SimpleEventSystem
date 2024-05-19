@@ -1,5 +1,5 @@
 # SimpleEventSystem
-A simple global event system in unity 
+A simple global event system 
 
 ## Usage
 ```csharp
