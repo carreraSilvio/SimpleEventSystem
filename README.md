@@ -2,8 +2,6 @@
 A simple global event system in unity 
 
 ## Usage
-
-## Examples
 ```csharp
 
 void Awake()
@@ -45,3 +43,10 @@ private void HandlePlayerDied()
 }
 
 ```
+
+## Install
+
+### Unity 2019.3
+1. Open the package manager and point to the rep url
+
+![Imgur](https://i.imgur.com/iYGgINz.png)
