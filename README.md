@@ -33,8 +33,8 @@ public enum MyEventNames
 
 void Awake()
 {
-    SimpleEventManager.AddListener(MyEventNames.PlayerHealed, HandlePlayerDied);
-    SimpleEventManager.Invoke(MyEventNames.PlayerHealed);
+    SimpleEventManager.AddListener(MyEventNames.PlayerDied, HandlePlayerDied);
+    SimpleEventManager.Invoke(MyEventNames.PlayerDied);
 }
 
 private void HandlePlayerDied()
