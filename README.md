@@ -29,7 +29,6 @@ void Handler2()
 
 void Awake()
 {
-    
     SimpleEventManager.AddListener(MyEventNames.PlayerHealed, HandlePlayerDied);
     SimpleEventManager.Invoke(MyEventNames.PlayerHealed);
 }
