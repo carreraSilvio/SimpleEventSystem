@@ -1,0 +1,13 @@
+{
+  "name": "com.bright.simpleEventSystem",
+  "version": "1.0.0",
+  "displayName": "Simple Event System",
+  "description": "A simple global event system",
+  "unity": "2018.2",
+  "unityRelease": "15f1",
+  "author": 
+  {
+    "name": "Silvio Carréra",
+    "url": "https://github.com/carreraSilvio/SimpleEventSystem"
+  }
+}
