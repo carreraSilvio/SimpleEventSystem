@@ -26,6 +26,12 @@ void Handler2()
 ```
 
 ```csharp
+public enum MyEventNames
+{
+    PlayerTookDamage,
+    PlayerHealed,
+    PlayerDied
+}
 
 void Awake()
 {
