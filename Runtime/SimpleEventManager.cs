@@ -9,9 +9,7 @@ namespace SimpleEventSystem
     /// </summary>
     public sealed class SimpleEventManager
     {
-        private SimpleEventManager()
-        {
-        }
+        private SimpleEventManager(){}
 
         private static Dictionary<string, List<Action>> _eventDictionary = new Dictionary<string, List<Action>>();
 
